@@ -1,0 +1,9 @@
+CA=letsencrypt
+BASEDIR="/data/dehydrated/"
+DOMAINS_TXT="/data/dehydrated/domains.txt"
+WELLKNOWN="${BASEDIR}/acme-challenges"
+HOOK="/usr/bin/dehydrated-mythic-dns01/dehydrated-mythic-dns01.sh"
+CHALLENGETYPE=dns-01
+HOOK_CHAIN=yes
+CONFIG_D="/data/dehydrated/config_d"
+CERTDIR="/ssl"

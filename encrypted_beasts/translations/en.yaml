@@ -1,0 +1,13 @@
+---
+configuration:
+  domain:
+    name: Domain
+    description: >-
+      A certificate will be generated for this domain.
+  contact_email:
+    name: Email
+    description: The email address that will be registered with LetsEncrypt for the certificate.
+  api_key:
+    name: API domain and key
+    description: The API domain name and key from Mythic Beasts
+

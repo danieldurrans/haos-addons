@@ -1,0 +1,31 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Start the encrypted_beasts service
+# s6-overlay docs: https://github.com/just-containers/s6-overlay
+# ==============================================================================
+
+bashio::log.info "Starting encrypted_beasts service"
+
+MYTHIC_DNS_CONFIG="/data/dehydrated/dnsapi.config.txt"
+export MYTHIC_DNS_CONFIG
+
+bashio::log.info "Creating required directories"
+mkdir -p /data/dehydrated/
+mkdir -p /data/dehydrated/config_d
+
+bashio::log.info "Creating contact email configuration file"
+echo "CONTACT_EMAIL=$(bashio::config 'contact_email')" > /data/dehydrated/config_d/contact_email.sh
+
+bashio::log.info "Creating domain file"
+echo -e "$(bashio::config 'domain')\n" > /data/dehydrated/domains.txt
+
+bashio::log.info "Creating api key file"
+echo -e "$(bashio::config 'api_key')\n" > /data/dehydrated/dnsapi.config.txt
+
+bashio::log.info "Running registration script"
+/usr/bin/dehydrated/dehydrated --register --accept-terms -f /usr/etc/dehydrated/config
+
+bashio::log.info "Running renewal script"
+/usr/bin/dehydrated/dehydrated -c -f /usr/etc/dehydrated/config
+
+bashio::log.info "Completed encrypted_beasts service"

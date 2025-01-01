@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Daniel Durrans' Home Assistant add-on repository
+url: 'https://github.com/danieldurrans/haos-addons'
+maintainer: Daniel Durrans <dan@durrans.com>
