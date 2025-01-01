@@ -2,6 +2,8 @@
 
 Create and update your Home Assistant [LetsEncrypt](https://letsencrypt.org) SSL certificate using a DNS challenge when your domain's nameservers are provided by [Mythic Beasts](https://www.mythic-beasts.com).
 
+[![Open your Home Assistant instance and show the dashboard of an add-on.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=encrypted_beasts&repository_url=https%3A%2F%2Fgithub.com%2Fdanieldurrans%2Fhaos-addons)
+
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armhf Architecture][armhf-shield]
