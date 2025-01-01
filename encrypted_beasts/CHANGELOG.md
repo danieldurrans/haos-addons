@@ -1,6 +1,6 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
-## 1.0.42
+## 1.0.43
 
 - Amending Dockerfile because installing from GitHub wasn't working as expected
 
