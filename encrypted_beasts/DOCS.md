@@ -13,3 +13,6 @@
 3. Run the add-in
 4. The add-in will run and then terminate, saving certificates into Home Assistant's /ssl directory
 5. You can monitor the add-in from the Add-in's Logs page
+
+By default the add-on doesn't automatically renew certifications. You will need to start the add-on each time that you want to try to renew. You could do that with an automation in Home Assistant
+

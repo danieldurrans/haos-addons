@@ -1,5 +1,7 @@
 # Home Assistant Add-on: LetsEncrypt Mythic Beasts
 
+Create and update your Home Assistant [LetsEncrypt](https://letsencrypt.org) SSL certificate using a DNS challenge when your domain's nameservers are provided by [Mythic Beasts](https://www.mythic-beasts.com).
+
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armhf Architecture][armhf-shield]

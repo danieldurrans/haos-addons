@@ -14,7 +14,7 @@ This repository contains the following add-ons:
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-Create and update [LetsEncrypt](https://letsencrypt.org) certificates using [Mythic Beasts](https://www.mythic-beasts.com) DNS.
+Create and update your Home Assistant [LetsEncrypt](https://letsencrypt.org) SSL certificate using a DNS challenge when your domain's nameservers are provided by [Mythic Beasts](https://www.mythic-beasts.com).
 
 <!--
 
