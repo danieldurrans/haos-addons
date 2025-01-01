@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 1.0.41
+
+- Amending Dockerfile because installing from GitHub wasn't working as expected
+
 ## 1.0.40
 
 - Removing HA nice link from readme
