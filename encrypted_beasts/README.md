@@ -13,3 +13,9 @@ Create and update your Home Assistant [LetsEncrypt](https://letsencrypt.org) SSL
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+
+## Attributions
+
+Based on:
+- [Mythic Beasts Dehydrated Hook Script](https://github.com/mythic-beasts/dehydrated-mythic-dns01)
+- [Dehydrated script](https://github.com/dehydrated-io/dehydrated)
